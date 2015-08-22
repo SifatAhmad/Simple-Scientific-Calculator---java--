@@ -223,7 +223,7 @@ public class Calc007 extends javax.swing.JFrame {
             }
         });
 
-        sqr.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        sqr.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         sqr.setText("x²");
         sqr.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         sqr.addActionListener(new java.awt.event.ActionListener() {
