@@ -241,7 +241,7 @@ public class Calc007 extends javax.swing.JFrame {
             }
         });
 
-        del.setBackground(new java.awt.Color(255, 153, 204));
+        del.setBackground(new java.awt.Color(255, 153, 153));
         del.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
         del.setText("Del");
         del.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -348,11 +348,11 @@ public class Calc007 extends javax.swing.JFrame {
             }
         });
 
-        reset.setBackground(new java.awt.Color(255, 102, 102));
-        reset.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
+        reset.setBackground(new java.awt.Color(255, 51, 51));
+        reset.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         reset.setForeground(new java.awt.Color(255, 255, 255));
         reset.setText("Reset");
-        reset.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        reset.setBorder(null);
         reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 resetActionPerformed(evt);
@@ -387,7 +387,6 @@ public class Calc007 extends javax.swing.JFrame {
         });
 
         jTextField1.setEditable(false);
-        jTextField1.setBackground(new java.awt.Color(240, 240, 240));
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTextField1.setText("© Sifat Ahmad 2015");
         jTextField1.setBorder(null);
@@ -482,7 +481,7 @@ public class Calc007 extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(deg)
                     .addComponent(rad)
-                    .addComponent(reset))
+                    .addComponent(reset, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(43, 43, 43)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cuberoot)
