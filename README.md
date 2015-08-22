@@ -1,3 +1,3 @@
 # Simple-Scientific-Calculator---java--
-Simple-Scientific-Calculator Developed in Java Enviornment By Sifat Ahmad
-Happy Coding !
+Developed in Java Enviornment By Sifat Ahmad
+        © Sifat Ahmad 2015
